@@ -22,21 +22,6 @@ Folder structure for basic challenges
             |-ch-[n].ts
 ```
 
-# Moderate Challenges
-
-UT-002: Pass all the moderate testing
-
-```
-npm run test:moderate
-```
-
-Folder structure for basic challenges
-
-```
-|-src
-    |-challenge-moderate
-```
-
 ## Tech Stack
 
 1. Typescript
@@ -49,17 +34,4 @@ Folder structure for basic challenges
 
 1. Clone the repo.
 2. Install the dependencies by running `npm install`.
-3. Run `npm run prisma:migrate` to migrate schema.
-4. Run `npm run prisma:generate` to install prisma client.
-
-`npm run start:dev` start the server in development mode.
-`npm run test:dev` to start Jest testing
-
-## Database Migration and Setting
-
-1. Run `npm run prisma:migrate` to migrate the prisma.schema.
-2. Run `npm run prisma:generate` to update the prisma client with latest changes so that you get typechecking for latest changes to your schema.
-
-Every time you make changes to `prisma/schema.prisma` make sure to run above commands.
-
-For seeding run `npm run prisma:seed`
+3. Run `npm run test:dev` to start Jest testing
