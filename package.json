@@ -13,7 +13,7 @@
     "prisma:seed": "prisma db seed",
     "prisma:migrate": "prisma migrate dev --skip-seed",
     "prisma:generate": "prisma generate",
-    "test": "jest",
+    "test:basics": "jest ch-1.spec.ts ch-2.spec.ts ch-3.spec.ts ch-4.spec.ts ch-5.spec.ts ch-6.spec.ts",
     "test:dev": "jest --watchAll"
   },
   "husky": {

@@ -1,8 +1,41 @@
-# Appointment Management System
+# Unit Testing Assignment
 
-Appointment Management System is a project build upon the Node and Typescript.
+Unit Testing Assignment is a project build upon the Node and Typescript. The main purpose of this project is to create the playground for the unit testing learning. 
 
-The main purpose of this project is to create the playground for the unit testing learning.
+You have been assigned to a project as a Developer. You first task is to pass the project test cases.
+
+# Basic Challenges
+
+UT-001: Pass all the basic testing
+
+```
+npm run test:basics
+```
+
+Folder structure for basic challenges
+
+```
+|-src
+    |-challenge-basics
+        |-ch-[n]
+            |-ch-[n].spec.ts
+            |-ch-[n].ts
+```
+
+# Moderate Challenges
+
+UT-002: Pass all the moderate testing
+
+```
+npm run test:moderate
+```
+
+Folder structure for basic challenges
+
+```
+|-src
+    |-challenge-moderate
+```
 
 ## Tech Stack
 
