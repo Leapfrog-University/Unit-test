@@ -35,3 +35,11 @@ Folder structure for basic challenges
 1. Clone the repo.
 2. Install the dependencies by running `npm install`.
 3. Run `npm run test:dev` to start Jest testing
+
+
+## Contributors
+
+1. Eklak Dangaura
+2. Nirajan Bist
+3. Ishwar Gautam
+4. Bipin Poudel
